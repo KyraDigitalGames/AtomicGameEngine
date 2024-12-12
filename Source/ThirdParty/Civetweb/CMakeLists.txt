@@ -33,7 +33,7 @@ if (WIN32)
         include (CheckSymbolExists)
         check_symbol_exists (_TIMESPEC_DEFINED time.h HAVE__TIMESPEC_DEFINED)
         if (NOT HAVE__TIMESPEC_DEFINED)
-            add_definitions (-D_TIMESPEC_DEFINED)
+            add_definitions (-D_TIMESPEC_DEFINED -DNO_SSL)
         endif ()
     endif ()
     # ATOMIC BEGIN
