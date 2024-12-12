@@ -30,6 +30,8 @@
 #   Atomic team and should not be synced with upstream.
 # Changes should be marked with "ATOMIC BEGIN|END" or "ATOMIC FIX" comments.
 
+include(FetchContent)
+
 add_subdirectory(Box2D)
 add_subdirectory(Duktape)
 add_subdirectory(FreeType)

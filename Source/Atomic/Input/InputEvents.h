@@ -25,11 +25,11 @@
 #include "../Core/Object.h"
 
 // ATOMIC BEGIN
-#include <SDL/include/SDL_joystick.h>
-#include <SDL/include/SDL_gamecontroller.h>
-#include <SDL/include/SDL_keycode.h>
-#include <SDL/include/SDL_mouse.h>
-#include <SDL/include/SDL_haptic.h>
+#include <SDL2/SDL_joystick.h>
+#include <SDL2/SDL_gamecontroller.h>
+#include <SDL2/SDL_keycode.h>
+#include <SDL2/SDL_mouse.h>
+#include <SDL2/SDL_haptic.h>
 // ATOMIC END
 
 namespace Atomic

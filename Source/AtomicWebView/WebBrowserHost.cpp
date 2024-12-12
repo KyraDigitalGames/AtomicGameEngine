@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 //
 
-#include <SDL/include/SDL.h>
-#include <ThirdParty/SDL/include/SDL_syswm.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_syswm.h>
 
 #include <include/cef_app.h>
 #include <include/cef_client.h>

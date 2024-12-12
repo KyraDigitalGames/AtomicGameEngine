@@ -26,7 +26,7 @@
 #include "JSPluginExports.h"
 #include "JSVM.h"
 
-#include <ThirdParty/SDL/include/SDL.h>
+#include <SDL2/SDL.h>
 
 namespace Atomic
 {

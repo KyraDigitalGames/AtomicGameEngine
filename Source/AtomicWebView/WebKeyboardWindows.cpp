@@ -24,8 +24,8 @@
 
 #include <include/cef_client.h>
 
-#include <ThirdParty/SDL/include/SDL.h>
-#include <ThirdParty/SDL/include/SDL_syswm.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_syswm.h>
 
 #include <ThirdParty/SDL/src/events/scancodes_windows.h>
 

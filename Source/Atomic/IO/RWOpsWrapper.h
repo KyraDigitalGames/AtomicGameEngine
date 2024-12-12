@@ -25,7 +25,7 @@
 #include "../IO/File.h"
 
 // ATOMIC BEGIN
-#include <SDL/include/SDL_rwops.h>
+#include <SDL2/SDL_rwops.h>
 // ATOMIC END
 
 namespace Atomic

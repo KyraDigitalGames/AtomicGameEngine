@@ -49,7 +49,7 @@
 #include "WebViewEvents.h"
 #include "WebString.h"
 
-#include <SDL/include/SDL.h>
+#include <SDL2/SDL.h>
 
 #ifdef ATOMIC_PLATFORM_LINUX
   #ifndef SDL_VIDEO_DRIVER_X11
@@ -57,7 +57,7 @@
   #endif
 #endif
 
-#include <ThirdParty/SDL/include/SDL_syswm.h>
+#include <SDL2/SDL_syswm.h>
 
 namespace Atomic
 {

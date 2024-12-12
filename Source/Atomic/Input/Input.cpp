@@ -40,7 +40,7 @@
 // #include "../UI/Text.h"
 #include "../UI/UI.h"
 #include "../UI/UIWidget.h"
-#include <SDL/include/SDL.h>
+#include <SDL2/SDL.h>
 
 // ATOMIC END
 
@@ -1339,14 +1339,15 @@ bool Input::RemoveGesture(unsigned gestureID)
 #ifdef __EMSCRIPTEN__
     return false;
 #else
-    return SDL_RemoveDollarTemplate(gestureID) != 0;
+    //return SDL_RemoveDollarTemplate(gestureID) != 0;
+    return false;
 #endif
 }
 
 void Input::RemoveAllGestures()
 {
 #ifndef __EMSCRIPTEN__
-    SDL_RemoveAllDollarTemplates();
+   // SDL_RemoveAllDollarTemplates();
 #endif
 }
 

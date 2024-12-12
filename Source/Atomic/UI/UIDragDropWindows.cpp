@@ -39,7 +39,7 @@
 #include "UIDragDrop.h"
 #include "UIDragDropMac.h"
 
-#include <ThirdParty/SDL/include/SDL_syswm.h>
+#include <SDL2/SDL_syswm.h>
 
 #include <windows.h>
 #include <windowsx.h>
